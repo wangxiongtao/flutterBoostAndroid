@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="D:/flutter/flutter_windows_2.10.1-stable/flutter/.pub-cache/git/flutter_boost-c4e5ed7c0471fe11b202b5df70b6ee6fe28369ed/android" />
+            <option value="D:/flutter/flutter_windows_2.10.1-stable/flutter/.pub-cache/hosted/pub.flutter-io.cn/multi_image_picker-4.8.01/android" />
+            <option value="D:/flutter/flutter_windows_2.10.1-stable/flutter/.pub-cache/hosted/pub.flutter-io.cn/multi_image_picker2-5.0.02/android" />
+            <option value="D:/flutter/flutter_windows_2.10.1-stable/flutter/.pub-cache/hosted/pub.flutter-io.cn/path_provider-1.6.28/android" />
+            <option value="D:/flutter/flutter_windows_2.10.1-stable/flutter/.pub-cache/hosted/pub.flutter-io.cn/sqflite-2.0.2/android" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/../flutter_module" />
+            <option value="$PROJECT_DIR$/../flutter_module/.android/Flutter" />
+            <option value="$PROJECT_DIR$/../plugin/flutter_plugin/android" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
