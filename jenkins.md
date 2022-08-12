@@ -2,7 +2,10 @@
 
 ##  环境安装（Android+Flutter）
 
-*   Android:
+* Android:
 
-    > 打开书本。
-    > 打开电灯。
+  1. JDK 安装
+
+* Flutter
+
+   1.环境安装参见官网(https://doc.flutterchina.club/get-started/install/)
