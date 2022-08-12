@@ -4,7 +4,7 @@
 
 * Android:
 
-  1.JDK 安装
+  1.AndroidSdk 安装，下载地址（https://pan.baidu.com/s/1uDKGiWw4S2x0n8rUuwAYWw?pwd=85rn）
 
 * Flutter:
 
@@ -36,7 +36,8 @@
 
 2.创建任务 这里需要创建两个任务Android项目的任务和Flutter项目的任务，然后进入分别配置这两个任务
 
-     * Flutter项目任务配置
+    Flutter项目任务配置
+
        1. 设置自定义工作空间 我这里设置 E:\JekinsWorkSpace\wanda\merchant_flutter 你可以替换成你的
 
        2.源码管理 git地址：http://gitlab.wanda.cn/beyonds/fontend/app/merchant_platform/flutter/merchant_flutter.git 分支 dev
@@ -51,3 +52,15 @@
 
 
  ![](https://gitee.com/wangxiongtao/mark-down-img/raw/master/img/build_after20220812142817.png)
+
+    Android 项目任务配置
+
+        1. 设置自定义工作空间 我这里设置 E:\JekinsWorkSpace\wanda\merchant_platform 你可以替换成你的,
+        这里注意！！！ 一定要和flutter项目任务在一个根目录下，我这里都放在E:\JekinsWorkSpace\wanda\这个根目录下了
+
+        2.源码管理 git地址：http://gitlab.wanda.cn/beyonds/fontend/app/merchant_platform/android/merchant_platform.git 分支 dev_mvvm
+
+        3.增加构建步骤 选择Invoke Gradle script，配置Gradle Version 选择之前配置Gradle的名称即可
+        填写Task命令 clean assembleDev --stacktrace  --debug
+![](https://gitee.com/wangxiongtao/mark-down-img/raw/master/img/task_20220812150704.png)
+           
