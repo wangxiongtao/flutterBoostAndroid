@@ -76,7 +76,7 @@
 
   scandir：${WORKSPACE}/app/build/outputs/apk/dev
 
-  file：  wildcard *.apk
+  file wildcard： *.apk
 
 
 打包流程： 构建flutter项目任务就可以，构建完会自动构建Android 项目任务 ，然后上传蒲公英
