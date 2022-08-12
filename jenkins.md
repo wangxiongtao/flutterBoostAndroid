@@ -66,17 +66,17 @@
 
 
 
-  打包后上传蒲公英
+  ## 打包后上传蒲公英
 
-       安装蒲公英插件（https://www.pgyer.com/doc/view/jenkins_plugin）
+  安装蒲公英插件（https://www.pgyer.com/doc/view/jenkins_plugin）
 
-       配置Android项目任务的构建后的操作 选择 Upload to pgyer with apiV2
+  配置Android项目任务的构建后的操作 选择 Upload to pgyer with apiV2
 
-       pgyer api_key：f6c6b80f09ab397accd793dc22275549
+  pgyer api_key：f6c6b80f09ab397accd793dc22275549
 
-       scandir：${WORKSPACE}/app/build/outputs/apk/dev
+  scandir：${WORKSPACE}/app/build/outputs/apk/dev
 
-       file：  wildcard *.apk
+  file：  wildcard *.apk
 
 
 打包流程： 构建flutter项目任务就可以，构建完会自动构建Android 项目任务 ，然后上传蒲公英
