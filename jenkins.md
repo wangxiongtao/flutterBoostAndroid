@@ -68,7 +68,7 @@
 
   ## 打包后上传蒲公英
 
-  安装蒲公英插件（https://www.pgyer.com/doc/view/jenkins_plugin）
+  安装蒲公英插件（ https://www.pgyer.com/doc/view/jenkins_plugin ）
 
   配置Android项目任务的构建后的操作 选择 Upload to pgyer with apiV2
 
